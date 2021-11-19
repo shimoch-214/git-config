@@ -1,0 +1,17 @@
+# only ailias
+
+[alias]
+a = add
+b = branch
+s = status
+d = diff
+p = push
+ba = branch -a
+ch = checkout
+# commit
+cm = commit
+cmm = commit -m
+# log
+log = log --graph --decorate --all --oneline
+logg = log --graph --all --decorate
+plog = log --pretty='format:%C(yellow)%h %C(green)%cd %C(reset)%s %C(red)%d %C(cyan)[%an]' --date=iso
